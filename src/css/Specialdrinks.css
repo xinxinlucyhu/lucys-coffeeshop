@@ -1,0 +1,21 @@
+h3{
+    text-align: center;
+    margin-bottom: 15px;;
+}
+
+.threeitems{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 25px; 
+}
+.card{
+    border-width: 0px;
+    width: 20rem;
+}
+.card-img-top:hover{
+    transform: scale(1.1); 
+    transition-duration: 0.4s;
+}
