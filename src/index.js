@@ -5,12 +5,11 @@ import { BrowserRouter } from "react-router-dom";
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-    <React.StrictMode>
+    
     <BrowserRouter>
     <App/>
+    </BrowserRouter>,
     
-    </BrowserRouter>
-    </React.StrictMode>,
     document.getElementById('root')
 );
 

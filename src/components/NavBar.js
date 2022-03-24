@@ -25,7 +25,7 @@ class NavBar extends Component {
               <Link className="nav-link" to="events">Events</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="about">Contact</Link>
+              <Link className="nav-link" to="contact">Contact</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="order">Order Online</Link>

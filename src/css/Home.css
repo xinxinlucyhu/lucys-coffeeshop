@@ -23,41 +23,21 @@
      text-align: center;
      margin-top: 40px;
      margin-bottom: 20px;
+     color:#6d6c6a;
  }
 .aboutimg{
    float:right; 
    height:270px;
    width:370px;
    margin-top: 10px;
+   word-wrap: break-word;
 }
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
   }
-  .site-footer{
-      background-color: #2c2d33;
-      color:aliceblue;
-  }
-  .footertop{
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    margin-top: 10px;
-    padding-left: 20vw;
-    padding-right: 20vw;
-  }
-  .companytag{
-      padding-bottom: 50px;
-      text-align: center;
-  }
-  .build{
-    text-decoration: underline;
-    color:aliceblue;
-  }
+
   .monthlyspecial{
     display: flex;
     flex-direction: row;
@@ -65,8 +45,8 @@
     margin-left: -15px;
     margin-right: -15px;
   }
-  .aboutimg{  
-      word-wrap: break-word;
+  .clearfix{
+    color:#6d6c6a;
   }
   .aboutus{
     margin-left: 15px;
@@ -74,11 +54,20 @@
     max-width: 80rem;
     
   }
+  .aboutus h2{
+      color:#6d6c6a;
+      text-align: center;
+  }
   .aboutusparent{
       display: flex;
     flex-direction: column;
     justify-content: center; 
     align-items: center;
+}
+
+.abouth5{
+    text-align: start;
+    color: #e3b674;
 }
 
  

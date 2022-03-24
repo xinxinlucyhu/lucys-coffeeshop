@@ -1,0 +1,52 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactright, .contactleft{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+}
+.contactright div{
+    padding-bottom: 50px;
+}
+.contactleft{
+    margin-top: 50px;
+}
+.contactright p{
+    color:#6d6c6a;
+}
+
+.contactrighth3{
+    text-align: start;
+}
+
+.phone a{
+    color:#e3b674;
+}
+.contacth1{
+padding-top: 50px;
+}
+.contacth2{
+   color: #6d6c6a;
+   padding-top: 50px;
+}
+.contactpage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 50px; 
+}
+.contacthr{
+    margin-top:50px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;;
+    }
+.formdiv{
+    padding-top: 50px;
+    margin-top: 50px;
+    border-width: 0px;
+}

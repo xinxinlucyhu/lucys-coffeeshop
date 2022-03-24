@@ -1,0 +1,23 @@
+.site-footer{
+    background-color: #2c2d33;
+    color:aliceblue;
+}
+.footertop{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  margin-top: 10px;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+.companytag{
+    padding-bottom: 50px;
+    text-align: center;
+}
+.build{
+  text-decoration: underline;
+  color:aliceblue;
+}
